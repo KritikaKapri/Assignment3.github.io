@@ -1,0 +1,33 @@
+{
+  "name": "volunteer-connect-spa",
+  "version": "2.0.0",
+  "description": "Volunteer Connect SPA with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "KritikaKapri <157759597+KritikaKapri@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/list": "^6.1.15",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "lg-autoplay": "^1.2.1",
+    "lg-fullscreen": "^1.2.1",
+    "lg-thumbnail": "^1.2.1",
+    "lightgallery": "^2.8.2"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@types/jquery": "^3.5.32",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,220 @@
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding-top: 60px; /* Ensures the navbar doesn't overlap the content */
+}
+
+/* Header Styling */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background-color: #f0f8ff;
+    padding: 60px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.hero-section .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+}
+
+.hero-section .btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Carousel Section Styling */
+#volunteer-carousel .carousel-item img {
+    object-fit: cover;
+    height: 400px; /* Ensures consistent image height */
+}
+
+/* Navbar Customization */
+.navbar {
+    background-color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 20px;
+    color: #007bff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
+
+.navbar-nav .btn {
+    font-size: 1.1rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0.75rem 0; /* Reduced padding for smaller footer */
+    font-size: 0.875rem; /* Smaller text size */
+    text-align: center; /* Centers the content horizontally */
+}
+
+footer p {
+    font-size: 0.875rem; /* Smaller font size for the copyright text */
+    margin-bottom: 5px; /* Adjusted margin */
+}
+
+footer .nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Centers the list horizontally */
+}
+
+footer .nav-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.875rem; /* Smaller font size for the links */
+}
+
+footer .nav-link:hover {
+    color: #007bff; /* Optional hover effect */
+}
+
+footer .nav-link:hover {
+    color: #007bff; /* Optional hover effect */
+}
+
+/* Card Styling for Volunteer Opportunities */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Interactive Button Styling */
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 767px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section p {
+        font-size: 0.875rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Custom Colors */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #28a745;
+    --tertiary-color: #f0f8ff;
+    --footer-bg: #343a40;
+    --text-light: #f8f9fa;
+    --text-dark: #333;
+}
