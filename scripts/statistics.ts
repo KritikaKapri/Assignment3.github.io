@@ -8,6 +8,8 @@
  * This module renders the statistics page with data visualizations
  */
 
+import Chart from 'chart.js/auto';
+
 interface VisitorStatistic {
     date: string;
     visitors: number;
